@@ -1,0 +1,224 @@
+.container-fluid, .container{
+    padding: 0;
+}
+#susisiekite{
+    background-color: #da6f00;
+    color: #ffff;
+    line-height: 1;
+}
+#paieska{
+    background-color: #da6f00;
+    color: #ffff;
+    margin-bottom: 35%;
+    line-height: 1;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #da6f00;
+}
+.nav-link:hover{
+    font-weight: bold;
+    color: #da6f00;
+}
+h1{
+    text-align: center;
+    color: #1f808b;
+}
+h2{
+    padding-top: 5%;
+    text-align: center;
+    color: #da6f00;
+}
+h4{
+    color: #da6f00;
+}
+h5{
+    color: #da6f00;
+}
+input[type=text]{
+    border: 6px solid #1f808b;
+    border-radius: 4px;
+    text-align: center;
+    color: #1f808b;
+}
+.nuotrauka2{
+    padding-top: 25px;
+}
+.veiklos, .straipsniai{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.nuorodos{
+    position: relative;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+    border: 3px solid #1f808b;
+    margin: 12px;
+    color: #1f808b;
+}
+.nuorodos:hover{
+    background-color: #fff;
+    border: 3px solid #da6f00;
+    font-weight: bold;
+    color: #da6f00;
+}
+.col-sm-4{
+    width: 65%;
+}
+.straipsniu-tekstas{
+    color: #1f808b;
+    line-height: 1.5;
+}
+#daugiau{
+    line-height: 1;
+    background-color: #da6f00;
+    color: #ffff;
+    margin-bottom: 25px;
+}
+.suzinok{
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #1f808b;
+}
+.meniu{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.juosta {
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    color: #1f808b;
+    margin-left: 25px;
+}
+.juosta:hover{
+    text-decoration: none;
+    color: #da6f00;
+    font-weight: bold;
+}
+.logo2{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 45px;
+}
+.priklauso{
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.soc{
+    padding-top: 25px;
+}
+@media (max-width: 1200px) {
+    .juosta {
+        display: inline-block;
+    }
+}
+@media (max-width: 768px){
+    .juosta {
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-width: 768px){
+    .logo2 {
+        display: block;
+        text-align: center;
+        margin-left: 45px;
+    }
+}
+.straipsnis{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.tekstas{
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 1.5;
+}
+#naujiena{
+    border-radius: 25px;
+    border: 2px solid #1f808b;
+    padding: 20px;
+    width: 100%;
+    height: 150px;
+}
+.naujienupav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.naujienos{
+    padding-bottom: 35px;
+}
+@media (max-width: 1200px) {
+    #naujiena {
+        border-radius: 25px;
+        border: 2px solid #1f808b;
+        padding: 20px;
+        width: 100%;
+        height: 150px;
+    }
+}
+@media (max-width: 768px) {
+    #naujiena {
+        border-radius: 25px;
+        border: 2px solid #1f808b;
+        padding: 20px;
+        width: 100%;
+        height: 200px;
+    }
+}
+.automobiliai{
+    padding-bottom: 35px;
+}
+.automobiliupav{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.automobilisvip{
+    background-color: #faedd9;
+    border-radius: 25px;
+    border: 2px solid #1f808b;
+    padding: 20px;
+    width: 100%;
+    height: 250px;
+}
+.automobilislogo{
+    border-radius: 25px;
+    border: 2px solid #1f808b;
+    padding: 10px;
+    width: 30%;
+    background-color: #ffffff;
+}
+.automobilis{
+    border-radius: 25px;
+    border: 2px solid #1f808b;
+    padding: 10px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.logo{
+    color: #1f808b;
+}
+.vip{
+    padding-left: 35px;
+    color: #1f808b;
+}
