@@ -11,6 +11,7 @@
     color: #ffff;
     margin-bottom: 35%;
     line-height: 1;
+    text-align: center;
 }
 .img-fluid{
     max-width: 100%;
@@ -44,8 +45,91 @@ input[type=text]{
     text-align: center;
     color: #1f808b;
 }
-.nuotrauka2{
+.nuotrauka{
     padding-top: 25px;
+}
+.image1{
+    background-image: url("../img/banner.png");
+    max-width: 100%;
+    height: 250px;
+    padding-top: 7%;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.image2{
+    background-image: url("../img/banner2.png");
+    max-width: 100%;
+    height: 300px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+@media (max-width: 1200px) {
+    .image1 {
+        max-width: 100%;
+        height: 250px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+}
+@media (max-width: 768px){
+    .image1 {
+        max-width: 100%;
+        height: 200px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+}
+@media (max-width: 1200px) {
+    .image2 {
+        max-width: 100%;
+        height: 300px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+}
+@media (max-width: 768px){
+    .image2 {
+        max-width: 100%;
+        height: 250px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+}
+.paieska{
+    padding-top: 25px;
+    padding-left: 46%;
+}
+@media (max-width: 768px){
+    .paieska{
+        padding-top: 25px;
+        padding-left: 40%;
+    }
+}
+.ivesti{
+    padding-left: 15%;
+}
+.ivesti2{
+
+}
+@media (max-width: 768px){
+    .ivesti{
+        padding-left: 15%;
+    }
+}
+@media (max-width: 768px){
+    .ivesti2{
+        padding-left: 15%;
+    }
+}
+.imone{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+@media (max-width: 768px){
+    .imone{
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
 }
 .veiklos, .straipsniai{
     padding-top: 25px;
@@ -126,6 +210,9 @@ hr{
 .soc{
     padding-top: 25px;
 }
+.fa:hover{
+    opacity: 0.7;
+}
 @media (max-width: 1200px) {
     .juosta {
         display: inline-block;
@@ -143,6 +230,10 @@ hr{
         text-align: center;
         margin-left: 45px;
     }
+}
+.pl-5, .px-5 {
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
 }
 .straipsnis{
     padding-left: 25px;
