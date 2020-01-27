@@ -226,6 +226,13 @@ hr{
         padding-bottom: 15px;
     }
 }
+@media (min-width: 769px){
+    .logo2 {
+        display: inline-block;
+        text-align: center;
+        margin-left: 45px;
+    }
+}
 @media (max-width: 768px){
     .logo2 {
         display: block;
@@ -314,4 +321,8 @@ hr{
 .vip{
     padding-left: 35px;
     color: #1f808b;
+}
+.imones{
+    padding-left: 35px;
+    color: black;
 }
