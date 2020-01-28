@@ -1,12 +1,12 @@
 .container-fluid, .container{
     padding: 0;
 }
-#susisiekite{
+#contact{
     background-color: #da6f00;
     color: #ffff;
     line-height: 1;
 }
-#paieska{
+#search{
     background-color: #da6f00;
     color: #ffff;
     margin-bottom: 35%;
@@ -45,7 +45,8 @@ input[type=text]{
     text-align: center;
     color: #1f808b;
 }
-.nuotrauka{
+.image-container{
+    padding-top: 25px;
     padding-top: 25px;
 }
 .image1{
@@ -55,6 +56,8 @@ input[type=text]{
     padding-top: 7%;
     padding-bottom: 25px;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .image2{
     background-image: url("../img/banner2.png");
@@ -62,6 +65,8 @@ input[type=text]{
     height: 300px;
     padding-bottom: 25px;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media (max-width: 1200px) {
     .image1 {
@@ -69,6 +74,8 @@ input[type=text]{
         height: 250px;
         padding-bottom: 25px;
         text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 @media (max-width: 768px){
@@ -77,6 +84,8 @@ input[type=text]{
         height: 200px;
         padding-bottom: 25px;
         text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 @media (max-width: 1200px) {
@@ -85,6 +94,8 @@ input[type=text]{
         height: 300px;
         padding-bottom: 25px;
         text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 @media (max-width: 768px){
@@ -93,49 +104,51 @@ input[type=text]{
         height: 250px;
         padding-bottom: 25px;
         text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
-.paieska{
+.search{
     padding-top: 25px;
     padding-left: 46%;
 }
 @media (max-width: 768px){
-    .paieska{
+    .search{
         padding-top: 25px;
         padding-left: 40%;
     }
 }
-.ivesti{
+.enter1{
     padding-left: 15%;
 }
-.ivesti2{
+.enter2{
 
 }
 @media (max-width: 768px){
-    .ivesti{
+    .enter1{
         padding-left: 15%;
     }
 }
 @media (max-width: 768px){
-    .ivesti2{
+    .enter2{
         padding-left: 15%;
     }
 }
-.imone{
+.firm{
     padding-top: 50px;
     padding-bottom: 25px;
 }
 @media (max-width: 768px){
-    .imone{
+    .firm{
         padding-top: 25px;
         padding-bottom: 15px;
     }
 }
-.veiklos, .straipsniai{
+.activity, .articles{
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.nuorodos{
+.references{
     position: relative;
     display: inline-block;
     padding: .75rem 1.25rem;
@@ -144,7 +157,7 @@ input[type=text]{
     margin: 12px;
     color: #1f808b;
 }
-.nuorodos:hover{
+.references:hover{
     background-color: #fff;
     border: 3px solid #da6f00;
     font-weight: bold;
@@ -153,17 +166,17 @@ input[type=text]{
 .col-sm-4{
     width: 65%;
 }
-.straipsniu-tekstas{
+.articles-text{
     color: #1f808b;
     line-height: 1.5;
 }
-#daugiau{
+#more{
     line-height: 1;
     background-color: #da6f00;
     color: #ffff;
     margin-bottom: 25px;
 }
-.suzinok{
+.know{
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px;
@@ -184,7 +197,7 @@ hr{
     margin-bottom: 0;
     list-style: none;
 }
-.juosta {
+.footer {
     padding-top: 25px;
     padding-right: 15px;
     padding-left: 15px;
@@ -192,7 +205,7 @@ hr{
     color: #1f808b;
     margin-left: 25px;
 }
-.juosta:hover{
+.footer:hover{
     text-decoration: none;
     color: #da6f00;
     font-weight: bold;
@@ -202,7 +215,7 @@ hr{
     padding-left: 15px;
     margin-left: 45px;
 }
-.priklauso{
+.depends{
     padding-top: 25px;
     padding-bottom: 15px;
     text-align: center;
@@ -214,12 +227,12 @@ hr{
     opacity: 0.7;
 }
 @media (max-width: 1200px) {
-    .juosta {
+    .footer {
         display: inline-block;
     }
 }
 @media (max-width: 768px){
-    .juosta {
+    .footer {
         display: block;
         text-align: center;
         padding-top: 15px;

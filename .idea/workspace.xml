@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f7c29dd-0fcd-4fc2-a580-a0c7ffbf8385" name="Default Changelist" comment="" />
+    <list default="true" id="1f7c29dd-0fcd-4fc2-a580-a0c7ffbf8385" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apiemus.html" beforeDir="false" afterPath="$PROJECT_DIR$/apiemus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automobiliai.html" beforeDir="false" afterPath="$PROJECT_DIR$/automobiliai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naujiena.html" beforeDir="false" afterPath="$PROJECT_DIR$/naujiena.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/naujienos.html" beforeDir="false" afterPath="$PROJECT_DIR$/naujienos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skelbimas.html" beforeDir="false" afterPath="$PROJECT_DIR$/skelbimas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/straipsnis.html" beforeDir="false" afterPath="$PROJECT_DIR$/straipsnis.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +31,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/manreikia" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WqtCCS3foVlu9A9ZcFJLL7oH2L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -37,6 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -64,6 +76,7 @@
       <workItem from="1579938796378" duration="21407000" />
       <workItem from="1579981061181" duration="6416000" />
       <workItem from="1580020453817" duration="36728000" />
+      <workItem from="1580226233198" duration="5070000" />
     </task>
     <servers />
   </component>
@@ -72,8 +85,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/manreikia" />
+      <path value="$PROJECT_DIR$/nereikia" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="461" y="163" key="SettingsEditor" timestamp="1580232035973">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580232035973" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1580052587944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
