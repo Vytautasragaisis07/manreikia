@@ -29,7 +29,6 @@ h1{
     color: #1f808b;
 }
 h2{
-    padding-top: 5%;
     text-align: center;
     color: #da6f00;
 }
@@ -45,8 +44,14 @@ input[type=text]{
     text-align: center;
     color: #1f808b;
 }
+.activity, .articles{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.bottom{
+    padding-bottom: 50px;
+}
 .image-container{
-    padding-top: 25px;
     padding-top: 25px;
 }
 .image1{
@@ -143,10 +148,6 @@ input[type=text]{
         padding-bottom: 15px;
     }
 }
-.activity, .articles{
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
 .references{
     position: relative;
     display: inline-block;
@@ -168,6 +169,26 @@ input[type=text]{
 .articles-text{
     color: #1f808b;
     line-height: 1.5;
+}
+.pa-5 {
+    padding-left: 2rem!important;
+    padding-right: 3rem!important;
+}
+.la-5 {
+    padding-left: 3rem!important;
+    padding-right: 1rem!important;
+}
+@media (max-width: 768px){
+    .pa-5{
+        padding-left: 3rem!important;
+        padding-right: 2rem!important;
+    }
+}
+@media (max-width: 768px){
+    .la-5{
+        padding-left: 3rem!important;
+        padding-right: 2rem!important;
+    }
 }
 #more{
     line-height: 1;
@@ -256,32 +277,31 @@ hr{
     padding-left: 3rem!important;
     padding-right: 3rem!important;
 }
-.straipsnis{
+.article{
     padding-left: 25px;
     padding-right: 25px;
 }
-.tekstas{
-    padding-top: 50px;
+.text{
     padding-left: 25px;
     padding-right: 25px;
     line-height: 1.5;
 }
-#naujiena{
+#new{
     border-radius: 25px;
     border: 2px solid #1f808b;
     padding: 20px;
     width: 100%;
     height: 150px;
 }
-.naujienupav{
+.new{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.naujienos{
+.news{
     padding-bottom: 35px;
 }
 @media (max-width: 1200px) {
-    #naujiena {
+    #new {
         border-radius: 25px;
         border: 2px solid #1f808b;
         padding: 20px;
@@ -290,7 +310,7 @@ hr{
     }
 }
 @media (max-width: 768px) {
-    #naujiena {
+    #new {
         border-radius: 25px;
         border: 2px solid #1f808b;
         padding: 20px;
@@ -298,43 +318,70 @@ hr{
         height: 200px;
     }
 }
-.automobiliai{
+.autos{
     padding-bottom: 35px;
 }
-.automobiliupav{
+.auto-name{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.automobilisvip{
+.auto-vip{
     background-color: #faedd9;
     border-radius: 25px;
     border: 2px solid #1f808b;
     padding: 20px;
     width: 100%;
-    height: 250px;
+    height: 305px;
 }
-.automobilislogo{
+.auto-logo{
     border-radius: 25px;
     border: 2px solid #1f808b;
-    padding: 10px;
-    width: 30%;
     background-color: #ffffff;
+    color: #1f808b;
+    padding-top: 25px;
 }
-.automobilis{
+.auto{
     border-radius: 25px;
     border: 2px solid #1f808b;
-    padding: 10px;
+    padding: 25px;
     width: 100%;
     background-color: #ffffff;
 }
-.logo{
-    color: #1f808b;
+.auto-height{
+     height: 240px;
 }
+
 .vip{
     padding-left: 35px;
     color: #1f808b;
 }
-.imones{
-    padding-left: 35px;
-    color: black;
+.logo{
+    color: #1f808b;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-between;
+    grid-template-areas:
+        "vip content"
+        "logo content"
+        "footer footer"
+}
+.grid-item1{
+    grid-area: vip;
+}
+.grid-item2{
+    grid-area: logo;
+}
+.grid-item3{
+    grid-area: content;
+}
+.grid-item4{
+    grid-area: footer;
+    border-radius: 25px;
+    border: 2px solid #1f808b;
+    background-color: #ffffff;
+    padding: 15px;
 }
