@@ -435,7 +435,6 @@ hr{
     background-size: cover;
     border: 2px solid #1f808b;
 }
-
 #transport{
     color: #1f808b;
 }
@@ -446,4 +445,24 @@ hr{
 }
 .padding{
     padding-left: 40px;
+}
+.color{
+    color: #1f808b;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.links{
+    position: relative;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    margin: 15px;
+    background-color: #fff;
+    border: 3px solid #1f808b;
+    color: #1f808b;
+}
+.links:hover{
+    background-color: #fff;
+    border: 3px solid #da6f00;
+    font-weight: bold;
+    color: #da6f00;
 }
