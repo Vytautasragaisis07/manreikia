@@ -435,3 +435,15 @@ hr{
     background-size: cover;
     border: 2px solid #1f808b;
 }
+
+#transport{
+    color: #1f808b;
+}
+#transport:hover{
+    text-decoration: none;
+    color: #da6f00;
+    font-weight: bold;
+}
+.padding{
+    padding-left: 40px;
+}
